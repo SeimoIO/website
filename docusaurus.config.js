@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'SeimoIO',
-  tagline: 'WE ARE ON THE WAY TO BUILD A BETTER WORLD',
+  tagline: '我们将致力于建设一个更美好的世界',
   url: 'https://www.seimotech.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -63,8 +63,8 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {to: '/', label: 'Home', position: 'left'},
-          {to: '/docs/intro', label: 'Docs', position: 'left'},
+          {to: '/', label: '首页', position: 'left'},
+          {to: '/docs/intro', label: '文档', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/seimoio/website',
