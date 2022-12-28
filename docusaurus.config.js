@@ -65,7 +65,7 @@ const config = {
         items: [
           {to: '/', label: '首页', position: 'left'},
           {to: '/docs/intro', label: '文档', position: 'left'},
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: '博客', position: 'left'},
           {
             href: 'https://github.com/seimoio/website',
             label: 'GitHub',
