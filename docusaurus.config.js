@@ -24,7 +24,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh',
-    locales: ['zh','en'],
+    locales: ['en', 'zh'],
   },
 
   presets: [
@@ -66,6 +66,10 @@ const config = {
           {to: '/', label: '首页', position: 'left'},
           {to: '/docs/intro', label: '文档', position: 'left'},
           {to: '/blog', label: '博客', position: 'left'},
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
           {
             href: 'https://github.com/seimoio/website',
             label: 'GitHub',
