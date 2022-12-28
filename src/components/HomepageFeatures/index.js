@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus 让您专注于文档，帮助您解决其他事情。默认文档在<code>docs</code>目录中。
+        Docusaurus 让您专注于文档，帮助您解决其他事情。默认文档在 <code>docs</code> 目录中。
       </>
     ),
   },
@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Docusaurus 使用 React 来实现插件能力，您可以方便扩展或自定义您的网站布局。
+        Docusaurus 使用 React 来实现插件能力，支持方便扩展或自定义您的网站和布局。
       </>
     ),
   },
