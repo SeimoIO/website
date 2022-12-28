@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.seimotech.com/blog</id>
+    <id>https://www.seimotech.com/en/blog</id>
     <title>SeimoIO Blog</title>
     <updated>2022-07-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://www.seimotech.com/blog"/>
+    <link rel="alternate" href="https://www.seimotech.com/en/blog"/>
     <subtitle>SeimoIO Blog</subtitle>
-    <icon>https://www.seimotech.com/img/favicon.ico</icon>
+    <icon>https://www.seimotech.com/en/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[盛茂云佳]]></title>
         <id>seimotech</id>
-        <link href="https://www.seimotech.com/blog/seimotech"/>
+        <link href="https://www.seimotech.com/en/blog/seimotech"/>
         <updated>2022-07-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[盛茂云佳 成立于 2022 年 07 月 28 日。]]></summary>
         <content type="html"><![CDATA[<p>盛茂云佳 成立于 2022 年 07 月 28 日。</p><p>我们愿景：帮助用户，成就用户，成就团队。</p>]]></content>

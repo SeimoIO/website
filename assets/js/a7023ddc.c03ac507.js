@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[713],{3457:e=>{e.exports=JSON.parse('[{"label":"seimotech","permalink":"/blog/tags/seimotech","count":1},{"label":"recommend","permalink":"/blog/tags/recommend","count":1}]')}}]);
