@@ -67,6 +67,10 @@ const config = {
           {to: '/docs/intro', label: '文档', position: 'left'},
           {to: '/blog', label: '博客', position: 'left'},
           {
+            type: "docsVersionDropdown",
+            position: "right",
+          },
+          {
             type: 'localeDropdown',
             position: 'right',
           },
