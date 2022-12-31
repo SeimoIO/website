@@ -8,7 +8,7 @@ release at 2022.07.28
 
 ### 多版本管理原因
 
-![image](mutlis-versions.svg)
+![image](./static/img/mutlis-versions.svg)
 
 ### 创建一个新版本的命令
 
