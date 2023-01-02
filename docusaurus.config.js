@@ -124,7 +124,7 @@ const config = {
       //       ],
       //     },
       //   ],
-        copyright: `Copyright © ${new Date().getFullYear()} SeimoIO, Inc. Built with Docusaurus. <br /> <a href="https://beian.miit.gov.cn/">沪 ICP 备 2022025722 号 -1</a>`,
+        copyright: `Copyright © ${new Date().getFullYear()} SeimoIO, Inc. Built with <a href="https://docusaurus.io/" target="_blank">Docusaurus</a>. <br /> <a href="https://beian.miit.gov.cn/">沪 ICP 备 2022025722 号 -1</a>`,
       },
       prism: {
         theme: lightCodeTheme,
