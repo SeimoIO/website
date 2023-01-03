@@ -36,8 +36,14 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/seimoio/website/tree/main/',
+          editUrl: 'https://github.com/seimoio/website/tree/main/',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
+          versions: {
+            current: {
+              label: `Next 🚧`,
+            },
+          },
         },
         blog: {
           showReadingTime: true,
