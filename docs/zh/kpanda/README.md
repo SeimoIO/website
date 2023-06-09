@@ -1,1 +1,1 @@
-# ZH kpanda
+# zh-kpanda
