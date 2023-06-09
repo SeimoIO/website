@@ -1,8 +1,7 @@
-name: Auto add labels to pull requests
+name: Auto labels
 
 on:
-  pull_request:
-    types: [opened]
+  - pull_request_target
 
 jobs:
   triage:
