@@ -1,4 +1,4 @@
-kind/docs:
+docs:
   - docs/*
   - docs/**/*
   - mkdocs.yml
@@ -33,16 +33,16 @@ markdown:
 python:
   - "**/*.py"
 
-English:
+en:
   - "docs/en/*"
 
-Chinese:
+zh:
   - "docs/zh/*"
 
-Kpanda:
+kpanda:
   - "docs/en/kpanda/*"
   - "docs/zh/kpanda/*"
 
-Skoala:
+skoala:
   - "docs/en/Skoala/*"
   - "docs/zh/Skoala/*"
