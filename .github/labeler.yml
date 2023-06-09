@@ -1,48 +1,13 @@
-docs:
-  - docs/*
-  - docs/**/*
-  - mkdocs.yml
-  - docusaurus.config.js
-
-github-actions:
-  - .github/workflows/*
-  - .github/workflows/**/*
-  - .github/labeler.yml
-
-github-templates:
-  - .github/ISSUE_TEMPLATE/*
-  - .github/PULL_REQUEST_TEMPLATE.md
-
-internal:
-  - .gitignore
-  - MANIFEST.in
-  - Makefile
-  - CONTRIBUTING.md
-  - MAINTAINERS.md
-  - CODE_OF_CONDUCT.md
-  - LICENSE
-
-dependencies:
-  - pyproject.toml
-  - poetry.lock
-  - requirements.txt
-
-markdown:
-  - "**/*.md"
-
-python:
-  - "**/*.py"
-
-en:
-  - "docs/en/*"
-
-zh:
-  - "docs/zh/*"
-
 kpanda:
-  - "docs/en/kpanda/*"
-  - "docs/zh/kpanda/*"
+  - "docs/en/kpanda/**/*"
+  - "docs/zh/kpanda/**/*"
 
 skoala:
-  - "docs/en/Skoala/*"
-  - "docs/zh/Skoala/*"
+  - "docs/en/Skoala/**/*"
+  - "docs/zh/Skoala/**/*"
+
+en:
+  - "docs/en/**/*"
+
+zh:
+  - "docs/zh/**/*"
