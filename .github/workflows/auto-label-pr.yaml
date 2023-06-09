@@ -1,0 +1,35 @@
+name: Auto add labels to pull requests
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+    add-label:
+        runs-on: ubuntu-latest
+        steps:
+        - uses: actions/checkout@v2
+
+        - name: Determine labels
+          id: label_output
+          if: ${{ github.event.pull_request.changed_files }}
+          run: |
+            import os
+            labels = []
+            for file in os.popen("git diff --name-only HEAD^ HEAD").read().split('\n'):
+                if file.startswith("docs/en/"):
+                    labels.append('en')
+                elif file.startswith("docs/zh/"):
+                    labels.append('Chinese')
+                elif 'kpanda' in file:
+                    labels.append('modified Kpanda')
+                elif 'docs' in file:
+                    labels.append('kind/docs')
+            print(f"::set-output name=labels::{','.join(labels)}")
+          
+        - name: Add labels
+          if: ${{ steps.label_output.outputs.labels != '' }}
+          uses: peter-evans/add-labels@v2.0.0
+          with:
+            github-token: ${{ secrets.AUTO_LABEL_TOKEN }}
+            labels: ${{ steps.label_output.outputs.labels.split(',') }}
