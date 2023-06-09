@@ -13,34 +13,5 @@ jobs:
     steps:
       - uses: actions/labeler@v4
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: "${{ secrets.AUTO_LABEL_TOKEN }}"
           configuration-path: .github/labeler.yml
-  
-  # add-label:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - uses: actions/checkout@v2
-
-  #     - name: Determine labels
-  #       id: label_output
-  #       if: ${{ github.event.pull_request.changed_files }}
-  #       run: |
-  #         import os
-  #         labels = []
-  #         for file in os.popen("git diff --name-only HEAD^ HEAD").read().split('\n'):
-  #             if file.startswith("docs/en/"):
-  #                 labels.append('en')
-  #             elif file.startswith("docs/zh/"):
-  #                 labels.append('Chinese')
-  #             elif 'kpanda' in file:
-  #                 labels.append('modified Kpanda')
-  #             elif 'docs' in file:
-  #                 labels.append('kind/docs')
-  #         print(f"::set-output name=labels::{','.join(labels)}")
-
-    # - name: Labeler
-    #   uses: actions/labeler@v4.1.0
-    #   if: ${{ steps.label_output.outputs.labels != '' }}
-    #   with:
-    #     github-token: ${{ secrets.AUTO_LABEL_TOKEN }}
-    #     labels: ${{ steps.label_output.outputs.labels.split(',') }}
