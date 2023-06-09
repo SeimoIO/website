@@ -1,6 +1,4 @@
-# Website
-
-release at 2022.07.28
+# SeimoIO
 
 ## 如何为网站创建一个新版本
 
