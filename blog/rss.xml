@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>SeimoIO Blog</title>
+        <title>SeimoIO Technology Blog</title>
         <link>https://www.seimotech.com/blog</link>
-        <description>SeimoIO Blog</description>
+        <description>SeimoIO Technology Blog</description>
         <lastBuildDate>Thu, 28 Jul 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
@@ -13,8 +13,8 @@
             <link>https://www.seimotech.com/blog/seimotech</link>
             <guid>seimotech</guid>
             <pubDate>Thu, 28 Jul 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[盛茂云佳 成立于 2022 年 07 月 28 日。]]></description>
-            <content:encoded><![CDATA[<p>盛茂云佳 成立于 2022 年 07 月 28 日。</p><p>我们愿景：帮助用户，成就用户，成就团队。</p>]]></content:encoded>
+            <description><![CDATA[SeimIO]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="seimio">SeimIO<a class="hash-link" href="#seimio" title="标题的直接链接">​</a></h2><p>盛茂云佳 成立于 2022 年 07 月 28 日。</p><blockquote><p>相关的关键字</p></blockquote><ul><li>SeimIO</li><li>seimotech</li><li>盛茂云佳</li><li>samcloud</li><li>samzong</li></ul><p>我们愿景：帮助用户，成就用户，成就团队。</p>]]></content:encoded>
             <category>seimotech</category>
             <category>recommend</category>
         </item>
