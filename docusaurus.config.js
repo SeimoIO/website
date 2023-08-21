@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'SeimoIO',
-  tagline: '我们将致力于建设一个更美好的世界',
+  title: 'SeimoIO Technology',
+  tagline: '致力于建设一个更美好的世界',
   url: 'https://www.seimotech.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -16,7 +16,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'seimoio', // Usually your GitHub org/user name.
+  organizationName: 'SeimoIO', // Usually your GitHub org/user name.
   projectName: 'website', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -39,11 +39,11 @@ const config = {
           editUrl: 'https://github.com/seimoio/website/tree/main/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
-          versions: {
-            current: {
-              label: `Next 🚧`,
-            },
-          },
+          // versions: {
+          //   current: {
+          //     label: `Next 🚧`,
+          //   },
+          // },
         },
         blog: {
           showReadingTime: true,
@@ -72,14 +72,14 @@ const config = {
           {to: '/', label: '首页', position: 'left'},
           {to: '/docs/intro', label: '文档', position: 'left'},
           {to: '/blog', label: '博客', position: 'left'},
-          {
-            type: "docsVersionDropdown",
-            position: "right",
-          },
-          {
-            type: 'localeDropdown',
-            position: 'right',
-          },
+          // {
+          //   type: "docsVersionDropdown",
+          //   position: "right",
+          // },
+          // {
+          //   type: 'localeDropdown',
+          //   position: 'right',
+          // },
           {
             href: 'https://github.com/seimoio/website',
             label: 'GitHub',
