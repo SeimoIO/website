@@ -4,11 +4,11 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: '易于使用',
+    title: '一人创业者模式',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus 从一开始就设计为易于安装用于快速启动和运行您的网站。
+        拒绝盲目增长，坚持小规模发展。
       </>
     ),
   },
@@ -17,16 +17,16 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus 让您专注于文档，帮助您解决其他事情。默认文档在 <code>docs</code> 目录中。
+        专注于眼前的工作，并时刻准备着。
       </>
     ),
   },
   {
-    title: '轻易扩展',
+    title: '创业者思维',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Docusaurus 使用 React 来实现插件能力，支持方便扩展或自定义您的网站和布局。
+        摆脱思维局限，勇敢去尝试更多事物。
       </>
     ),
   },
